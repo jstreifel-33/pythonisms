@@ -26,7 +26,7 @@ def test_eq_comparison():
     assert ll_1 == ll_2
 
 
-def test_eq_comparison():
+def test_eq_comparison_not_same():
     ll_1 = LinkedList([1, 2, 3])
     ll_2 = LinkedList([3, 2, 1])
 
