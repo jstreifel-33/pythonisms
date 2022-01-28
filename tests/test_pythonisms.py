@@ -42,3 +42,15 @@ def test_dunder_add():
     assert list(ll_3) == [1, 2, 3, 3, 2, 1]
     assert list(ll_1) == [1, 2, 3]
     assert list(ll_2) == [3, 2, 1]
+
+
+def test_cast_set():
+    li = [1, 2, 3]
+    example = LinkedList(li)
+    assert set(example) == {1, 2, 3}
+
+
+def test_cast_set_duplicates():
+    li = [1, 2, 2, 3, 3]
+    example = LinkedList(li)
+    assert set(example) == {1, 2, 3}
