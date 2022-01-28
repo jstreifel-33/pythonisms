@@ -1,5 +1,7 @@
-from pythonisms import __version__
+from pythonisms.pythonisms import CoolerLinkedList as LinkedList
 
 
-def test_version():
-    assert __version__ == '0.1.0'
+def test_iter_list_cast():
+    li = [1, 2, 3]
+    example = LinkedList(li)
+    assert str(example) == '{ 1 } -> { 2 } -> { 3 } -> None'
