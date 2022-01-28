@@ -56,3 +56,6 @@ class LinkedList:
 
         as_string += "None"
         return as_string
+
+    def __eq__(self, other):
+        return list(self) == list(other)
