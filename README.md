@@ -8,3 +8,7 @@ For this lab I took my basic linked list implementation and added some additiona
 * `__add__` allows for the adding together of two linked lists. This enables the concatenation of two linked lists, similar to the python concatenation of normal lists.
 
 `__str__` has also been refactored to use iteration, thanks to the implementation of `__iter__` dunder method.
+
+## Submission
+
+PR: [working branch #1](https://github.com/jstreifel-33/pythonisms/pull/1)
